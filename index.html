@@ -14,10 +14,10 @@
       <div class="logo">Pedro Marchiori de Araújo</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#experience">Experience</a></li>
+          <li> <a href="#projects">Projects</a></li>
+          <li> <a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -42,10 +42,10 @@
         <img
           src="./assets/profile_pic.jpg"
           alt="Pedro Marchiori profile picture"
+          title="Pedro Marchiori de Araújo"
         />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Olá, eu sou</p>
         <h1 class="title">Pedro Marchiori</h1>
         <p class="section__text__p2">Developer</p>
         <div class="btn-container">
@@ -64,12 +64,14 @@
             src="./assets/linkedin.png"
             alt="linkedin profile"
             class="icon"
-            onclick="location.href='https:linkedin.com/in/pedro-marchiori-46a972259'"
+            title="LinkedIn profile"
+            onclick="location.href='https:/linkedin.com/in/pedro-marchiori-46a972259'"
           />
           <img
             src="./assets/github.png"
             alt="github profile"
             class="icon"
+            title="GitHub profile"
             onclick="location.href='https:github.com/pmarchiori'"
           />
         </div>
@@ -79,11 +81,11 @@
       <p class="section__text__p1">Get to Know More</p>
       <h2 class="title">About Me</h2>
       <div class="section-container">
-        <div class="section__pic-container">
+        <!-- <div class="section__pic-container">
           <img src="./assets/profile_pic.jpg" 
           alt="Profile picture" 
           class="about-pic"/>
-        </div>
+        </div> -->
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
@@ -102,10 +104,10 @@
             </div>
           </div>
           <div class="text-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Unde, officiis. Sapiente facilis officiis quos, tenetur veniam
-              ducimus nemo tempora repudiandae ipsam. Possimus ab tempora 
-              numquam dolorem, sunt eaque cupiditate accusantium?
+            <p>Hello, I am Pedro Marchiori de Araújo, aspiring developer and currently
+              studying Game Design at UNIVALI and Software Engineering at Instituto INFNET.
+              I have been working with game development for nearly two years and have now began to
+              get into web development.
             </p>
           </div>
         </div>
@@ -118,7 +120,7 @@
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h2 class="title">Experience</h2>
-      <div class="experience-details-container">
+      <div class="experience-details-container experience-container">
         <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">Game Development</h2>
@@ -209,7 +211,8 @@
           <div class="article-container">
             <img src="./assets/forsteri_poster.png" 
             alt="Forsteri Game Project"
-            class="project-img"/>
+            class="project-img"
+            title="Forsteri Game Poster"/>
           </div>
           <h2 class="experience-sub-title project-title">Forsteri</h2>
           <div class="btn-container">
@@ -223,7 +226,8 @@
           <div class="article-container">
             <img src="./assets/kihaku_poster.png" 
             alt="Kihaku Game Project"
-            class="project-img"/>
+            class="project-img"
+            title="Kihaku Game Poster"/>
           </div>
           <h2 class="experience-sub-title project-title">Kihaku: Souls of the Gods</h2>
           <div class="btn-container">
@@ -248,13 +252,13 @@
           <img src="./assets/email.png" 
           alt="Email icon" 
           class="icon contact-icon email-icon"/>
-          <p><a href="mailto:pmarchiori08@gmail.com">pmarchiori08@gmail.com</a></p>
+          <p><a href="mailto:pmarchiori08@gmail.com" title="Email">pmarchiori08@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img src="./assets/linkedin.png" 
           alt="LinkedIn icon" 
           class="icon contact-icon"/>
-          <p><a href="https:linkedin.com/in/pedro-marchiori-46a972259">LinkedIn</a></p>
+          <p><a href="https:/linkedin.com/in/pedro-marchiori-46a972259" title="LinkedIn profile">LinkedIn</a></p>
         </div>
       </div>
     </section>
